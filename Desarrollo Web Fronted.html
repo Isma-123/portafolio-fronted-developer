@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- saved from url=(0059)file:///C:/Users/Adiel/imganes/pratica/archivogit/hola.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Desarrollo Web Fronted</title>
+     <meta name="portafolio" content="HTML, CSS, Javascript, React">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="preconnect" href="https://fonts.googleapis.com/">
+     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+     <link href="./Desarrollo Web Fronted_files/css2" rel="stylesheet">
+     <link rel="stylesheet" href="./Desarrollo Web Fronted_files/style.css">
+     <link href="./Desarrollo Web Fronted_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+ <!-- barra de navegacion -->
+ <nav class="navbar navbar-expand-md navbar-light">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-troggler">
+      <a class="navbar-brand" href="file:///C:/Users/Adiel/imganes/pratica/archivogit/hola.html#">
+        <img src="./Desarrollo Web Fronted_files/favicon icon.webp" width="50" alt="Logo de la pagina">
+      </a>
+      <ul class="navbar-nav d-flex justify-content-center align-items-ceneter">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="file:///C:/Users/Adiel/imganes/pratica/archivogit/hola.html#">Sobre mi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/Adiel/imganes/pratica/archivogit/hola.html#">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Testimonio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Contactos</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Seccion hero  -->
+   <section class="hero align-items-stretch">
+      <div class="hero principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador" src="./Desarrollo Web Fronted_files/person-circle.svg" alt="FotodeAbdias">
+        <h1 id="cambiodeText">Hola Soy Abdias Feliz</h1>
+        <script>
+         const textos = ["Bienvenidos", "Hola Soy Abdias Feliz"];
+           let indice = 0;
+
+setInterval(() => {
+  document.getElementById('cambiodeText').innerText = textos[indice];
+  indice = (indice + 1) % textos.length;
+}, 3000);
+
+        </script>
+        <h2>Desarrollo Web Mi portafolio como Fronted-developer</h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" width="50%f" src="./Desarrollo Web Fronted_files/proyecto web.svg" alt="Monitor, laptop css, react, Javascript">
+       </div>
+   </section>
+  <!-- Sobre Mi -->
+   <section class="sobre-mi Seccion-oscura">
+    <div class="contenedor">
+      <h2 class="Seccion-titulo texto-blanco">Conoce a Abdias</h2>
+       <p class="seccion-texto">Hola! a todos soy un apacionado Programador web que le gusta colaborar soy extrovertido me gusta la paz me gusta estar solo, Quiero ser mejor cada dia tambien, Por ahora los dejare con eso Aprender mas tecnolgias cada dia mas Los Quiero!</p>
+    </div>
+   </section>
+
+   <!-- Experiencia -->
+   <section class="Experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+           <!-- Desarrollo-web -->
+           <div class="columna col-12 col-md-4">
+             <img class="img-icon" width="25%" src="./Desarrollo Web Fronted_files/laptop.svg" alt="foto laptop">
+              <p class="experiencia-titulo">Desarrollo-Web</p>
+              <p>Estas son cada una de mis experiencia en el ambito de desarrollo Aqui vamos!</p>
+              <button class="shadow__btn">
+                Ver!
+            </button> 
+           </div>
+            <div class="columna col-12 col-md-4">
+              <img class="img-icon" width="25%" src="./Desarrollo Web Fronted_files/laptop.svg" alt="foto laptop">
+              <p class="experiencia-titulo">Cursos</p>
+              <p>Lista de curso Realizados puedes visitarlos todos aqui.</p>  
+              <button class="shadow__btn">
+                Ver!
+            </button> 
+            </div>
+            <div class="columna col-12 col-md-4">
+              <img class="img-icon" width="25%" src="./Desarrollo Web Fronted_files/laptop.svg" alt="foto laptop">
+               <p class="experiencia-titulo">Mis estudios</p>
+                 <p>Aqui le mostrare los link donde pueden ir a praticar codigo!</p>
+                 <button class="shadow__btn">
+                  Ver!
+              </button> 
+               </div>
+            </div>
+        </div>
+
+      
+   </section>
+   <section class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="Seccion-titulo texto-negro">Mis Proyectos mas recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos de mis proyectos</h3>
+        <!-- galeria  -->
+         <div class="container text-center proyectos-contenedor">
+          <div class="row">
+             <div class="col 12 col-md-6 col-lg-4">
+             <div class="proyecto">
+              <img src="./Desarrollo Web Fronted_files/pratica progrmacion.avif" alt="Proyecto1">
+              <div class="overlay">
+                <p>Proyecto1</p>
+              </div>
+             <div class="iconos contenedor">
+              <a href="https://github.com/Isma-123/portafolio-fronted-developer" target="_blank" rel="noopener noreferrer "><i class="bi bi-github">Hola</i></a>
+              
+              </div>
+             </div>
+             </div>
+
+          </div>
+         </div>
+
+   </section>
+   
+    <script src="./Desarrollo Web Fronted_files/bootstrap.bundle.min.js.descarga" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  
+  </body></html>
